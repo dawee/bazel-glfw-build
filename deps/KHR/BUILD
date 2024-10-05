@@ -1,5 +1,6 @@
 cc_library(
   name = "KHR",
-  hdrs = ["khrplatform.h"],
+  hdrs = ["include/KHR/khrplatform.h"],
+  includes = ["include"],
   visibility = ["//visibility:public"],
 )
